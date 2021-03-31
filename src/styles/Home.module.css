@@ -1,0 +1,43 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column; 
+  padding: 70px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.container > div input {
+  border: none;
+  background: #eee;
+  padding: 8px 16px;
+  border-radius: 4px; 
+  color: #333;
+}
+
+.container > div input + input {
+  margin-top: 16px;
+}
+
+.container > div button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background: lightblue;
+  border: none;
+  font-weight: bold;
+}
+
+.container > div span {
+  text-align: center;
+  margin-top: 24px;
+  font-weight: bold;
+}
